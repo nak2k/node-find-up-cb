@@ -1,0 +1,39 @@
+{
+  "name": "find-up-cb",
+  "version": "0.0.1",
+  "description": "find-up",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nak2k/node-find-up-cb/issues"
+  },
+  "dependencies": {
+    "locate-path-cb": "0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "tape": "^4.8.0"
+  },
+  "homepage": "https://github.com/nak2k/node-find-up-cb",
+  "keywords": [
+    "find",
+    "file",
+    "fs",
+    "path",
+    "resolve"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nak2k/node-find-up-cb.git"
+  },
+  "scripts": {
+    "lint": "eslint lib",
+    "prepare": "npm run lint && npm test",
+    "test": "tape test/test*.js"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
