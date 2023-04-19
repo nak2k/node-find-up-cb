@@ -10,7 +10,7 @@
     "locate-path-cb": "0.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.18.2",
+    "eslint": "^8.38.0",
     "tape": "^4.9.0"
   },
   "homepage": "https://github.com/nak2k/node-find-up-cb",
